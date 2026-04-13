@@ -1,7 +1,7 @@
     Blocking waiting for file lock on package cache
     Blocking waiting for file lock on package cache
-   0.383567375s  INFO prepare_target{force=false package_id=Fibonacci_number v0.1.0 (/Users/yashsharma/Rust_learning/Fibonacci_number) target="Fibonacci_number"}: cargo::core::compiler::fingerprint: fingerprint error for Fibonacci_number v0.1.0 (/Users/yashsharma/Rust_learning/Fibonacci_number)/Check { test: false }/TargetInner { name: "Fibonacci_number", doc: true, ..: with_path("/Users/yashsharma/Rust_learning/Fibonacci_number/src/main.rs", Edition2024) }
-   0.383695166s  INFO prepare_target{force=false package_id=Fibonacci_number v0.1.0 (/Users/yashsharma/Rust_learning/Fibonacci_number) target="Fibonacci_number"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/yashsharma/Rust_learning/Fibonacci_number/target/debug/.fingerprint/Fibonacci_number-c1c5d94c2846f627/bin-Fibonacci_number`
+   0.010650583s  INFO prepare_target{force=false package_id=Fibonacci_number v0.1.0 (/Users/yashsharma/Rust_learning/Fibonacci_number) target="Fibonacci_number"}: cargo::core::compiler::fingerprint: fingerprint error for Fibonacci_number v0.1.0 (/Users/yashsharma/Rust_learning/Fibonacci_number)/Check { test: false }/TargetInner { name: "Fibonacci_number", doc: true, ..: with_path("/Users/yashsharma/Rust_learning/Fibonacci_number/src/main.rs", Edition2024) }
+   0.010680708s  INFO prepare_target{force=false package_id=Fibonacci_number v0.1.0 (/Users/yashsharma/Rust_learning/Fibonacci_number) target="Fibonacci_number"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/yashsharma/Rust_learning/Fibonacci_number/target/debug/.fingerprint/Fibonacci_number-c1c5d94c2846f627/bin-Fibonacci_number`
 
 Caused by:
     No such file or directory (os error 2)
@@ -24,8 +24,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.475556000s  INFO prepare_target{force=false package_id=Fibonacci_number v0.1.0 (/Users/yashsharma/Rust_learning/Fibonacci_number) target="Fibonacci_number"}: cargo::core::compiler::fingerprint: fingerprint error for Fibonacci_number v0.1.0 (/Users/yashsharma/Rust_learning/Fibonacci_number)/Check { test: true }/TargetInner { name: "Fibonacci_number", doc: true, ..: with_path("/Users/yashsharma/Rust_learning/Fibonacci_number/src/main.rs", Edition2024) }
-   0.475583750s  INFO prepare_target{force=false package_id=Fibonacci_number v0.1.0 (/Users/yashsharma/Rust_learning/Fibonacci_number) target="Fibonacci_number"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/yashsharma/Rust_learning/Fibonacci_number/target/debug/.fingerprint/Fibonacci_number-10c5ffabe99c42d2/test-bin-Fibonacci_number`
+   0.015480750s  INFO prepare_target{force=false package_id=Fibonacci_number v0.1.0 (/Users/yashsharma/Rust_learning/Fibonacci_number) target="Fibonacci_number"}: cargo::core::compiler::fingerprint: fingerprint error for Fibonacci_number v0.1.0 (/Users/yashsharma/Rust_learning/Fibonacci_number)/Check { test: true }/TargetInner { name: "Fibonacci_number", doc: true, ..: with_path("/Users/yashsharma/Rust_learning/Fibonacci_number/src/main.rs", Edition2024) }
+   0.015495167s  INFO prepare_target{force=false package_id=Fibonacci_number v0.1.0 (/Users/yashsharma/Rust_learning/Fibonacci_number) target="Fibonacci_number"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/yashsharma/Rust_learning/Fibonacci_number/target/debug/.fingerprint/Fibonacci_number-10c5ffabe99c42d2/test-bin-Fibonacci_number`
 
 Caused by:
     No such file or directory (os error 2)
