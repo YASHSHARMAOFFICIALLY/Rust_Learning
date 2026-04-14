@@ -1,0 +1,52 @@
+   0.063871000s  INFO prepare_target{force=false package_id=temperature_converterr v0.1.0 (/Users/yashsharma/Rust_learning/temperature_converterr) target="temperature_converterr"}: cargo::core::compiler::fingerprint: fingerprint error for temperature_converterr v0.1.0 (/Users/yashsharma/Rust_learning/temperature_converterr)/Check { test: false }/TargetInner { name: "temperature_converterr", doc: true, ..: with_path("/Users/yashsharma/Rust_learning/temperature_converterr/src/main.rs", Edition2024) }
+   0.064088959s  INFO prepare_target{force=false package_id=temperature_converterr v0.1.0 (/Users/yashsharma/Rust_learning/temperature_converterr) target="temperature_converterr"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/yashsharma/Rust_learning/temperature_converterr/target/debug/.fingerprint/temperature_converterr-37d60e5d3da6cbc1/bin-temperature_converterr`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.087476709s  INFO prepare_target{force=false package_id=temperature_converterr v0.1.0 (/Users/yashsharma/Rust_learning/temperature_converterr) target="temperature_converterr"}: cargo::core::compiler::fingerprint: fingerprint error for temperature_converterr v0.1.0 (/Users/yashsharma/Rust_learning/temperature_converterr)/Check { test: true }/TargetInner { name: "temperature_converterr", doc: true, ..: with_path("/Users/yashsharma/Rust_learning/temperature_converterr/src/main.rs", Edition2024) }
+   0.087490542s  INFO prepare_target{force=false package_id=temperature_converterr v0.1.0 (/Users/yashsharma/Rust_learning/temperature_converterr) target="temperature_converterr"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/yashsharma/Rust_learning/temperature_converterr/target/debug/.fingerprint/temperature_converterr-58cb6abcb93216f1/test-bin-temperature_converterr`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+    Checking temperature_converterr v0.1.0 (/Users/yashsharma/Rust_learning/temperature_converterr)
+error: could not compile `temperature_converterr` (bin "temperature_converterr") due to 2 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `temperature_converterr` (bin "temperature_converterr" test) due to 2 previous errors

@@ -33,7 +33,7 @@ fn main(){
             .read_line(&mut unit1)
             .expect("Failed to Read the unit");
     
-    let unit1 = unit.trim().expect("Failed to do this");
+    let unit1 = unit1.trim().expect("Failed to do this");
 
     println!("Enter the temeprature you want to convert");
     let unit2 = String::new();
