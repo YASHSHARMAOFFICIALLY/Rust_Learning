@@ -1,0 +1,7 @@
+/Users/yashsharma/Rust_learning/practice/target/debug/deps/scopeguard-c02860621c670209.d: /Users/yashsharma/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/scopeguard-1.2.0/src/lib.rs
+
+/Users/yashsharma/Rust_learning/practice/target/debug/deps/libscopeguard-c02860621c670209.rlib: /Users/yashsharma/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/scopeguard-1.2.0/src/lib.rs
+
+/Users/yashsharma/Rust_learning/practice/target/debug/deps/libscopeguard-c02860621c670209.rmeta: /Users/yashsharma/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/scopeguard-1.2.0/src/lib.rs
+
+/Users/yashsharma/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/scopeguard-1.2.0/src/lib.rs:
