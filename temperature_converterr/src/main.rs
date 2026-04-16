@@ -19,7 +19,7 @@ fn main(){
 
     println!("Enter the temperature value");
 
-    let temp = String::new();
+    let mut  temp = String::new();
         io::stdin()
         .read_line(&mut temp)
         .expect("Failed to read value");
